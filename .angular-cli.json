@@ -22,7 +22,19 @@
       "styles": [
         "ng2/styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "ng1/app.module.js",
+        "ng1/app.config.js",
+        "ng1/app.animations.js",
+        "ng1/core/core.module.js",
+        "ng1/core/checkmark/checkmark.filter.js",
+        "ng1/core/phone/phone.module.js",
+        "ng1/core/phone/phone.service.js",
+        "ng1/phone-list/phone-list.module.js",
+        "ng1/phone-list/phone-list.component.js",
+        "ng1/phone-detail/phone-detail.module.js",
+        "ng1/phone-detail/phone-detail.component.js"
+      ],
       "environmentSource": "ng2/environments/environment.ts",
       "environments": {
         "dev": "ng2/environments/environment.ts",
@@ -53,6 +65,10 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+    },
+    "serve": {
+      "port": 4201
+    }
   }
 }

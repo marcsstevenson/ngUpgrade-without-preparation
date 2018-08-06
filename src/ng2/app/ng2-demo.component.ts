@@ -1,7 +1,8 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { PHONE_SERVICE } from "ng2/app/phone.service";
+import { PHONE_SERVICE } from 'ng2/app/phone.service';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'ng2-demo',
   template: `
     <h3>Angular 2 Demo Component</h3>
